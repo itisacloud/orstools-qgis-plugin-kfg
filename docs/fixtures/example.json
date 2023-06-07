@@ -1,0 +1,3644 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "attribution": "openrouteservice.org, OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1686133835783,
+    "query": {
+      "coordinates": [
+        [
+          9.189705511661828,
+          48.80269371644283
+        ],
+        [
+          8.630738190785365,
+          49.4186999279311
+        ]
+      ],
+      "profile": "public-transport",
+      "ptRequest": true,
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "7.0.1",
+      "build_date": "2023-05-30T14:58:05Z",
+      "graph_date": "0000-00-00T00:00:00Z"
+    }
+  },
+  "bbox": [
+    8.462642,
+    48.78311,
+    9.217514,
+    49.418696
+  ],
+  "features": [
+    {
+      "bbox": [
+        8.630718,
+        48.78311,
+        9.217514,
+        49.418696
+      ],
+      "type": "Feature",
+      "properties": {
+        "transfers": 4,
+        "fare": 0,
+        "segments": [
+          {
+            "distance": 91069.0,
+            "duration": 6573.8,
+            "steps": [
+              {
+                "distance": 23.5,
+                "duration": 16.9,
+                "type": 11,
+                "instruction": "Head south on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 17.0,
+                "duration": 12.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 28.9,
+                "duration": 20.8,
+                "type": 0,
+                "instruction": "Turn left onto Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 5.3,
+                "duration": 3.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 2405.9,
+                "duration": 420.0,
+                "type": 14,
+                "instruction": "Enter U12 headed for U12",
+                "name": "U12",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Stuttgart Hauptbf (Arnulf-Klett-Platz)",
+                "name": "Stuttgart Hauptbf (Arnulf-Klett-Platz)",
+                "way_points": [
+                  11,
+                  11
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 27.5,
+                "duration": 27.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 19.2,
+                "duration": 13.8,
+                "type": 0,
+                "instruction": "Turn left onto Klett-Passage",
+                "name": "Klett-Passage",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 26.5,
+                "duration": 26.5,
+                "type": 0,
+                "instruction": "Turn left onto Klett-Passage",
+                "name": "Klett-Passage",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 3380.8,
+                "duration": 240.0,
+                "type": 14,
+                "instruction": "Enter S1 headed for S1",
+                "name": "S1",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Stuttgart-Bad Cannstatt",
+                "name": "Stuttgart-Bad Cannstatt",
+                "way_points": [
+                  21,
+                  21
+                ]
+              },
+              {
+                "distance": 3120.2,
+                "duration": 240.0,
+                "type": 15,
+                "instruction": "Change to MEX12 headed for MEX12",
+                "name": "MEX12",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Stuttgart Hbf",
+                "name": "Stuttgart Hbf",
+                "way_points": [
+                  23,
+                  23
+                ]
+              },
+              {
+                "distance": 78150.4,
+                "duration": 2460.0,
+                "type": 15,
+                "instruction": "Change to IC 32 headed for Intercity",
+                "name": "IC 32",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Heidelberg Hbf",
+                "name": "Heidelberg Hbf",
+                "way_points": [
+                  25,
+                  25
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 2597.7,
+                "duration": 120.0,
+                "type": 14,
+                "instruction": "Enter S1 headed for S1",
+                "name": "S1",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Heidelberg-Pfaffengrund/Wieblingen",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "way_points": [
+                  29,
+                  29
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  29,
+                  32
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  32,
+                  35
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  35,
+                  37
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  37,
+                  38
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  38,
+                  39
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  39,
+                  43
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  43,
+                  53
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  53,
+                  64
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  64,
+                  64
+                ]
+              }
+            ]
+          }
+        ],
+        "legs": [
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 74.6,
+            "duration": 53.7,
+            "departure": "2023-06-07T10:42:06.262Z",
+            "arrival": "2023-06-07T10:43:00Z",
+            "geometry": "ywzhHizaw@f@C@AAm@C?o@D?L",
+            "instructions": [
+              {
+                "distance": 23.5,
+                "duration": 16.9,
+                "type": 11,
+                "instruction": "Head south on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 17.0,
+                "duration": 12.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 28.9,
+                "duration": 20.8,
+                "type": 0,
+                "instruction": "Turn left onto Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 5.3,
+                "duration": 3.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Nordbahnhof",
+            "trip_headsign": "U12",
+            "route_long_name": "U12",
+            "route_short_name": "U12",
+            "route_type": 2,
+            "distance": 2405.9,
+            "duration": 420.0,
+            "departure": "2023-06-07T10:43:00Z",
+            "arrival": "2023-06-07T10:50:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "886676",
+            "route_id": "4312",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "gzzhHyzaw@f_@yArZhAzQ|X`m@t[",
+            "stops": [
+              {
+                "stop_id": "618797",
+                "name": "Stuttgart Nordbahnhof",
+                "location": [
+                  9.189729,
+                  48.80308
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T10:43:00.000+00:00",
+                "planned_departure_time": "2023-06-07T10:43:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "425518",
+                "name": "Stuttgart Mittnachtstraße",
+                "location": [
+                  9.190179,
+                  48.79792
+                ],
+                "arrival_time": "2023-06-07T10:45:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T10:45:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T10:45:00.000+00:00",
+                "planned_departure_time": "2023-06-07T10:45:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "42197",
+                "name": "Stuttgart Milchhof",
+                "location": [
+                  9.18981,
+                  48.793495
+                ],
+                "arrival_time": "2023-06-07T10:46:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T10:46:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T10:46:00.000+00:00",
+                "planned_departure_time": "2023-06-07T10:46:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "413224",
+                "name": "Stuttgart Budapester Platz",
+                "location": [
+                  9.18566,
+                  48.79048
+                ],
+                "arrival_time": "2023-06-07T10:48:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T10:48:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T10:48:00.000+00:00",
+                "planned_departure_time": "2023-06-07T10:48:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "503816",
+                "name": "Stuttgart Hauptbf (Arnulf-Klett-Platz)",
+                "location": [
+                  9.18107,
+                  48.78311
+                ],
+                "arrival_time": "2023-06-07T10:50:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T10:50:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 79.5,
+            "duration": 72.2,
+            "departure": "2023-06-07T10:50:00Z",
+            "arrival": "2023-06-07T10:51:12.284Z",
+            "geometry": "s~vhHab`w@IGOb@IXNNFDDDHYLc@",
+            "instructions": [
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 27.5,
+                "duration": 27.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 19.2,
+                "duration": 13.8,
+                "type": 0,
+                "instruction": "Turn left onto Klett-Passage",
+                "name": "Klett-Passage",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 26.5,
+                "duration": 26.5,
+                "type": 0,
+                "instruction": "Turn left onto Klett-Passage",
+                "name": "Klett-Passage",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Klett-Passage, on the left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Hbf (tief)",
+            "trip_headsign": "S1",
+            "route_long_name": "S1",
+            "route_short_name": "S1",
+            "route_type": 2,
+            "distance": 3380.8,
+            "duration": 240.0,
+            "departure": "2023-06-07T10:55:00Z",
+            "arrival": "2023-06-07T10:59:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "1549373",
+            "route_id": "13206",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "a_whHc``w@soBigF",
+            "stops": [
+              {
+                "stop_id": "540088",
+                "name": "Stuttgart Hbf (tief)",
+                "location": [
+                  9.180342,
+                  48.783367
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T10:55:00.000+00:00",
+                "planned_departure_time": "2023-06-07T10:55:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "201029",
+                "name": "Stuttgart-Bad Cannstatt",
+                "location": [
+                  9.217514,
+                  48.801388
+                ],
+                "arrival_time": "2023-06-07T10:59:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T10:59:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart-Bad Cannstatt",
+            "trip_headsign": "MEX12",
+            "route_long_name": "MEX12",
+            "route_short_name": "MEX12",
+            "route_type": 2,
+            "distance": 3120.2,
+            "duration": 240.0,
+            "departure": "2023-06-07T11:04:00Z",
+            "arrival": "2023-06-07T11:08:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "182178",
+            "route_id": "12930",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "uozhHmhgw@~fBhuE",
+            "stops": [
+              {
+                "stop_id": "201029",
+                "name": "Stuttgart-Bad Cannstatt",
+                "location": [
+                  9.217514,
+                  48.801388
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:04:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:04:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "625634",
+                "name": "Stuttgart Hbf",
+                "location": [
+                  9.183217,
+                  48.784748
+                ],
+                "arrival_time": "2023-06-07T11:08:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:08:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Hbf",
+            "trip_headsign": "Intercity",
+            "route_long_name": "Intercity",
+            "route_short_name": "IC 32",
+            "route_type": 2,
+            "distance": 78150.4,
+            "duration": 2460.0,
+            "departure": "2023-06-07T11:12:00Z",
+            "arrival": "2023-06-07T11:53:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "1344657",
+            "route_id": "544",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "ugwhHcr`w@i|wBnfbB",
+            "stops": [
+              {
+                "stop_id": "625634",
+                "name": "Stuttgart Hbf",
+                "location": [
+                  9.183217,
+                  48.784748
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:12:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:12:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "476882",
+                "name": "Heidelberg Hbf",
+                "location": [
+                  8.675138,
+                  49.403843
+                ],
+                "arrival_time": "2023-06-07T11:53:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:53:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 11.2,
+            "duration": 8.1,
+            "departure": "2023-06-07T11:53:00Z",
+            "arrival": "2023-06-07T11:53:08.073Z",
+            "geometry": "qdplHal}s@GGGI",
+            "instructions": [
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Heidelberg Hbf",
+            "trip_headsign": "S1",
+            "route_long_name": "S1",
+            "route_short_name": "S1",
+            "route_type": 2,
+            "distance": 2597.7,
+            "duration": 120.0,
+            "departure": "2023-06-07T12:03:00Z",
+            "arrival": "2023-06-07T12:05:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "741771",
+            "route_id": "13128",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "ueplHkk}s@aq@xqE",
+            "stops": [
+              {
+                "stop_id": "514262",
+                "name": "Heidelberg Hbf",
+                "location": [
+                  8.675264,
+                  49.403954
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:03:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:03:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "99770",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "location": [
+                  8.641533,
+                  49.411957
+                ],
+                "arrival_time": "2023-06-07T12:05:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:05:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 1248.7,
+            "duration": 899.2,
+            "departure": "2023-06-07T12:05:00Z",
+            "arrival": "2023-06-07T12:19:59.065Z",
+            "geometry": "}xqlHquvs@CCCAKKLc@@WAGQUH[a@a@WEGv@G\\QNYNgAhEUl@A^aAvDEHkD`OEXeAdEBd@Jb@BRC`@kCtJKNMH}Bv@w@b@qC`CiA|@cAf@mCz@",
+            "instructions": [
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          64
+        ],
+        "summary": {
+          "distance": 91069.0,
+          "duration": 6573.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.189652,
+            48.802691
+          ],
+          [
+            9.189675,
+            48.802492
+          ],
+          [
+            9.189677,
+            48.802481
+          ],
+          [
+            9.189908,
+            48.802492
+          ],
+          [
+            9.189907,
+            48.802506
+          ],
+          [
+            9.189879,
+            48.802751
+          ],
+          [
+            9.189729,
+            48.80308
+          ],
+          [
+            9.190179,
+            48.79792
+          ],
+          [
+            9.18981,
+            48.793495
+          ],
+          [
+            9.18566,
+            48.79048
+          ],
+          [
+            9.18107,
+            48.78311
+          ],
+          [
+            9.180648,
+            48.783303
+          ],
+          [
+            9.180694,
+            48.783351
+          ],
+          [
+            9.180509,
+            48.783427
+          ],
+          [
+            9.180376,
+            48.783482
+          ],
+          [
+            9.180303,
+            48.783403
+          ],
+          [
+            9.180267,
+            48.783363
+          ],
+          [
+            9.180241,
+            48.783333
+          ],
+          [
+            9.180369,
+            48.783279
+          ],
+          [
+            9.180342,
+            48.783367
+          ],
+          [
+            9.217514,
+            48.801388
+          ],
+          [
+            9.217514,
+            48.801388
+          ],
+          [
+            9.183217,
+            48.784748
+          ],
+          [
+            9.183217,
+            48.784748
+          ],
+          [
+            8.675138,
+            49.403843
+          ],
+          [
+            8.675371,
+            49.403769
+          ],
+          [
+            8.675414,
+            49.403811
+          ],
+          [
+            8.675264,
+            49.403954
+          ],
+          [
+            8.641533,
+            49.411957
+          ],
+          [
+            8.641048,
+            49.412152
+          ],
+          [
+            8.641066,
+            49.412172
+          ],
+          [
+            8.641084,
+            49.412192
+          ],
+          [
+            8.64114,
+            49.412253
+          ],
+          [
+            8.641324,
+            49.412178
+          ],
+          [
+            8.641436,
+            49.412174
+          ],
+          [
+            8.64148,
+            49.412179
+          ],
+          [
+            8.64159,
+            49.412271
+          ],
+          [
+            8.641731,
+            49.412219
+          ],
+          [
+            8.641896,
+            49.412386
+          ],
+          [
+            8.641927,
+            49.41251
+          ],
+          [
+            8.641654,
+            49.412545
+          ],
+          [
+            8.641501,
+            49.412594
+          ],
+          [
+            8.64142,
+            49.412678
+          ],
+          [
+            8.64134,
+            49.412813
+          ],
+          [
+            8.640332,
+            49.413165
+          ],
+          [
+            8.640096,
+            49.413277
+          ],
+          [
+            8.639937,
+            49.413293
+          ],
+          [
+            8.639022,
+            49.41362
+          ],
+          [
+            8.638973,
+            49.413654
+          ],
+          [
+            8.636401,
+            49.414513
+          ],
+          [
+            8.636265,
+            49.414536
+          ],
+          [
+            8.635277,
+            49.414889
+          ],
+          [
+            8.635094,
+            49.414874
+          ],
+          [
+            8.634908,
+            49.41481
+          ],
+          [
+            8.634814,
+            49.41479
+          ],
+          [
+            8.634637,
+            49.414812
+          ],
+          [
+            8.632771,
+            49.415512
+          ],
+          [
+            8.632687,
+            49.41557
+          ],
+          [
+            8.632641,
+            49.415641
+          ],
+          [
+            8.632358,
+            49.41627
+          ],
+          [
+            8.632178,
+            49.416553
+          ],
+          [
+            8.631527,
+            49.417277
+          ],
+          [
+            8.63122,
+            49.417648
+          ],
+          [
+            8.631023,
+            49.417989
+          ],
+          [
+            8.630718,
+            49.418696
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "bbox": [
+        8.630718,
+        48.784748,
+        9.189652,
+        49.418696
+      ],
+      "type": "Feature",
+      "properties": {
+        "transfers": 3,
+        "fare": 0,
+        "segments": [
+          {
+            "distance": 104704.2,
+            "duration": 10233.8,
+            "steps": [
+              {
+                "distance": 64.9,
+                "duration": 46.7,
+                "type": 11,
+                "instruction": "Head north on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 47.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 10647.7,
+                "duration": 720.0,
+                "type": 14,
+                "instruction": "Enter S4 headed for S4",
+                "name": "S4",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Ludwigsburg",
+                "name": "Ludwigsburg",
+                "way_points": [
+                  11,
+                  11
+                ]
+              },
+              {
+                "distance": 11937.9,
+                "duration": 660.0,
+                "type": 14,
+                "instruction": "Enter RE8 headed for RE8",
+                "name": "RE8",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Stuttgart Hbf",
+                "name": "Stuttgart Hbf",
+                "way_points": [
+                  13,
+                  13
+                ]
+              },
+              {
+                "distance": 78150.4,
+                "duration": 2340.0,
+                "type": 15,
+                "instruction": "Change to EC 62 headed for EuroCity",
+                "name": "EC 62",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Heidelberg Hbf",
+                "name": "Heidelberg Hbf",
+                "way_points": [
+                  15,
+                  15
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 2597.7,
+                "duration": 180.0,
+                "type": 14,
+                "instruction": "Enter S1 headed for S1",
+                "name": "S1",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Heidelberg-Pfaffengrund/Wieblingen",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "way_points": [
+                  19,
+                  19
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  19,
+                  22
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  25
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  29,
+                  33
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  33,
+                  43
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  43,
+                  54
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  54,
+                  54
+                ]
+              }
+            ]
+          }
+        ],
+        "legs": [
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 110.6,
+            "duration": 94.2,
+            "departure": "2023-06-07T11:24:25.789Z",
+            "arrival": "2023-06-07T11:26:00Z",
+            "geometry": "ywzhHizaw@??I?iBLUbAId@AD",
+            "instructions": [
+              {
+                "distance": 64.9,
+                "duration": 46.7,
+                "type": 11,
+                "instruction": "Head north on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 47.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Nord",
+            "trip_headsign": "S4",
+            "route_long_name": "S4",
+            "route_short_name": "S4",
+            "route_type": 2,
+            "distance": 10647.7,
+            "duration": 720.0,
+            "departure": "2023-06-07T11:26:00Z",
+            "arrival": "2023-06-07T11:38:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "1415652",
+            "route_id": "9554",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "s~zhHqpaw@s|@`uBwbBjLqjEmoAozDqa@",
+            "stops": [
+              {
+                "stop_id": "624118",
+                "name": "Stuttgart Nord",
+                "location": [
+                  9.188086,
+                  48.803783
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:26:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:26:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "28026",
+                "name": "Stuttgart-Feuerbach",
+                "location": [
+                  9.169203,
+                  48.813644
+                ],
+                "arrival_time": "2023-06-07T11:28:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:28:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:29:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:29:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "218028",
+                "name": "Stuttgart-Zuffenhausen",
+                "location": [
+                  9.167065,
+                  48.829597
+                ],
+                "arrival_time": "2023-06-07T11:31:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:31:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:32:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:32:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "620449",
+                "name": "Kornwestheim Pbf",
+                "location": [
+                  9.179929,
+                  48.86217
+                ],
+                "arrival_time": "2023-06-07T11:35:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:35:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:35:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:35:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "404113",
+                "name": "Ludwigsburg",
+                "location": [
+                  9.185462,
+                  48.892166
+                ],
+                "arrival_time": "2023-06-07T11:38:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:38:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Ludwigsburg",
+            "trip_headsign": "RE8",
+            "route_long_name": "RE8",
+            "route_short_name": "RE8",
+            "route_type": 2,
+            "distance": 11937.9,
+            "duration": 660.0,
+            "departure": "2023-06-07T11:40:00Z",
+            "arrival": "2023-06-07T11:51:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "747230",
+            "route_id": "17052",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "sfliHy~`w@|}StK",
+            "stops": [
+              {
+                "stop_id": "10230",
+                "name": "Ludwigsburg",
+                "location": [
+                  9.185247,
+                  48.8921
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:40:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:40:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "625634",
+                "name": "Stuttgart Hbf",
+                "location": [
+                  9.183217,
+                  48.784748
+                ],
+                "arrival_time": "2023-06-07T11:51:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:51:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Hbf",
+            "trip_headsign": "EuroCity",
+            "route_long_name": "EuroCity",
+            "route_short_name": "EC 62",
+            "route_type": 2,
+            "distance": 78150.4,
+            "duration": 2340.0,
+            "departure": "2023-06-07T12:05:00Z",
+            "arrival": "2023-06-07T12:44:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "19976",
+            "route_id": "16306",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "ugwhHcr`w@i|wBnfbB",
+            "stops": [
+              {
+                "stop_id": "625634",
+                "name": "Stuttgart Hbf",
+                "location": [
+                  9.183217,
+                  48.784748
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:05:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:05:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "476882",
+                "name": "Heidelberg Hbf",
+                "location": [
+                  8.675138,
+                  49.403843
+                ],
+                "arrival_time": "2023-06-07T12:44:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:44:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 11.2,
+            "duration": 8.1,
+            "departure": "2023-06-07T12:44:00Z",
+            "arrival": "2023-06-07T12:44:08.073Z",
+            "geometry": "qdplHal}s@GGGI",
+            "instructions": [
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  2
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Heidelberg Hbf",
+            "trip_headsign": "S1",
+            "route_long_name": "S1",
+            "route_short_name": "S1",
+            "route_type": 2,
+            "distance": 2597.7,
+            "duration": 180.0,
+            "departure": "2023-06-07T13:03:00Z",
+            "arrival": "2023-06-07T13:06:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "659430",
+            "route_id": "13128",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "ueplHkk}s@aq@xqE",
+            "stops": [
+              {
+                "stop_id": "514262",
+                "name": "Heidelberg Hbf",
+                "location": [
+                  8.675264,
+                  49.403954
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:03:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:03:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "99770",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "location": [
+                  8.641533,
+                  49.411957
+                ],
+                "arrival_time": "2023-06-07T13:06:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:06:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 1248.7,
+            "duration": 899.2,
+            "departure": "2023-06-07T13:06:00Z",
+            "arrival": "2023-06-07T13:20:59.065Z",
+            "geometry": "}xqlHquvs@CCCAKKLc@@WAGQUH[a@a@WEGv@G\\QNYNgAhEUl@A^aAvDEHkD`OEXeAdEBd@Jb@BRC`@kCtJKNMH}Bv@w@b@qC`CiA|@cAf@mCz@",
+            "instructions": [
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          54
+        ],
+        "summary": {
+          "distance": 104704.2,
+          "duration": 10233.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.189652,
+            48.802691
+          ],
+          [
+            9.189652,
+            48.802692
+          ],
+          [
+            9.189647,
+            48.802741
+          ],
+          [
+            9.189584,
+            48.80327
+          ],
+          [
+            9.189243,
+            48.803377
+          ],
+          [
+            9.189051,
+            48.80343
+          ],
+          [
+            9.188086,
+            48.803783
+          ],
+          [
+            9.169203,
+            48.813644
+          ],
+          [
+            9.167065,
+            48.829597
+          ],
+          [
+            9.179929,
+            48.86217
+          ],
+          [
+            9.185462,
+            48.892166
+          ],
+          [
+            9.185247,
+            48.8921
+          ],
+          [
+            9.183217,
+            48.784748
+          ],
+          [
+            9.183217,
+            48.784748
+          ],
+          [
+            8.675138,
+            49.403843
+          ],
+          [
+            8.675371,
+            49.403769
+          ],
+          [
+            8.675414,
+            49.403811
+          ],
+          [
+            8.675264,
+            49.403954
+          ],
+          [
+            8.641533,
+            49.411957
+          ],
+          [
+            8.641048,
+            49.412152
+          ],
+          [
+            8.641066,
+            49.412172
+          ],
+          [
+            8.641084,
+            49.412192
+          ],
+          [
+            8.64114,
+            49.412253
+          ],
+          [
+            8.641324,
+            49.412178
+          ],
+          [
+            8.641436,
+            49.412174
+          ],
+          [
+            8.64148,
+            49.412179
+          ],
+          [
+            8.64159,
+            49.412271
+          ],
+          [
+            8.641731,
+            49.412219
+          ],
+          [
+            8.641896,
+            49.412386
+          ],
+          [
+            8.641927,
+            49.41251
+          ],
+          [
+            8.641654,
+            49.412545
+          ],
+          [
+            8.641501,
+            49.412594
+          ],
+          [
+            8.64142,
+            49.412678
+          ],
+          [
+            8.64134,
+            49.412813
+          ],
+          [
+            8.640332,
+            49.413165
+          ],
+          [
+            8.640096,
+            49.413277
+          ],
+          [
+            8.639937,
+            49.413293
+          ],
+          [
+            8.639022,
+            49.41362
+          ],
+          [
+            8.638973,
+            49.413654
+          ],
+          [
+            8.636401,
+            49.414513
+          ],
+          [
+            8.636265,
+            49.414536
+          ],
+          [
+            8.635277,
+            49.414889
+          ],
+          [
+            8.635094,
+            49.414874
+          ],
+          [
+            8.634908,
+            49.41481
+          ],
+          [
+            8.634814,
+            49.41479
+          ],
+          [
+            8.634637,
+            49.414812
+          ],
+          [
+            8.632771,
+            49.415512
+          ],
+          [
+            8.632687,
+            49.41557
+          ],
+          [
+            8.632641,
+            49.415641
+          ],
+          [
+            8.632358,
+            49.41627
+          ],
+          [
+            8.632178,
+            49.416553
+          ],
+          [
+            8.631527,
+            49.417277
+          ],
+          [
+            8.63122,
+            49.417648
+          ],
+          [
+            8.631023,
+            49.417989
+          ],
+          [
+            8.630718,
+            49.418696
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "bbox": [
+        8.462642,
+        48.802691,
+        9.189652,
+        49.418696
+      ],
+      "type": "Feature",
+      "properties": {
+        "transfers": 2,
+        "fare": 0,
+        "segments": [
+          {
+            "distance": 127335.3,
+            "duration": 12573.8,
+            "steps": [
+              {
+                "distance": 64.9,
+                "duration": 46.7,
+                "type": 11,
+                "instruction": "Head north on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 47.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 19204.6,
+                "duration": 1380.0,
+                "type": 14,
+                "instruction": "Enter S5 headed for S5",
+                "name": "S5",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Bietigheim-Bissingen",
+                "name": "Bietigheim-Bissingen",
+                "way_points": [
+                  14,
+                  14
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 3.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 18.5,
+                "duration": 17.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 17.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  27
+                ]
+              },
+              {
+                "distance": 4.0,
+                "duration": 2.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 55547.5,
+                "duration": 3840.0,
+                "type": 14,
+                "instruction": "Enter 17a headed for 17a",
+                "name": "17a",
+                "way_points": [
+                  28,
+                  42
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Karlsruhe-Durlach",
+                "name": "Karlsruhe-Durlach",
+                "way_points": [
+                  42,
+                  42
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  42,
+                  43
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 7.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  43,
+                  44
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 7.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  44,
+                  47
+                ]
+              },
+              {
+                "distance": 19.1,
+                "duration": 13.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  47,
+                  48
+                ]
+              },
+              {
+                "distance": 10.0,
+                "duration": 10.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  48,
+                  51
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  51,
+                  52
+                ]
+              },
+              {
+                "distance": 51102.7,
+                "duration": 2700.0,
+                "type": 14,
+                "instruction": "Enter S3 headed for S3",
+                "name": "S3",
+                "way_points": [
+                  52,
+                  64
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 16,
+                "instruction": "Exit to Heidelberg-Pfaffengrund/Wieblingen",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "way_points": [
+                  64,
+                  64
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  64,
+                  67
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  67,
+                  70
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  70,
+                  72
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  72,
+                  73
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  73,
+                  74
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  74,
+                  78
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  78,
+                  88
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  88,
+                  99
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  99,
+                  99
+                ]
+              }
+            ]
+          }
+        ],
+        "legs": [
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 110.6,
+            "duration": 94.2,
+            "departure": "2023-06-07T10:59:25.789Z",
+            "arrival": "2023-06-07T11:01:00Z",
+            "geometry": "ywzhHizaw@??I?iBLUbAId@AD",
+            "instructions": [
+              {
+                "distance": 64.9,
+                "duration": 46.7,
+                "type": 11,
+                "instruction": "Head north on Nordbahnhofstraße",
+                "name": "Nordbahnhofstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 47.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Stuttgart Nord",
+            "trip_headsign": "S5",
+            "route_long_name": "S5",
+            "route_short_name": "S5",
+            "route_type": 2,
+            "distance": 19204.6,
+            "duration": 1380.0,
+            "departure": "2023-06-07T11:01:00Z",
+            "arrival": "2023-06-07T11:24:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "1188160",
+            "route_id": "17777",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "s~zhHqpaw@s|@`uBwbBjLqjEmoAozDqa@o}AbiFozAplCwaD_iA",
+            "stops": [
+              {
+                "stop_id": "624118",
+                "name": "Stuttgart Nord",
+                "location": [
+                  9.188086,
+                  48.803783
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:01:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:01:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "28026",
+                "name": "Stuttgart-Feuerbach",
+                "location": [
+                  9.169203,
+                  48.813644
+                ],
+                "arrival_time": "2023-06-07T11:03:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:03:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:04:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:04:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "218028",
+                "name": "Stuttgart-Zuffenhausen",
+                "location": [
+                  9.167065,
+                  48.829597
+                ],
+                "arrival_time": "2023-06-07T11:06:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:06:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:07:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:07:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "620449",
+                "name": "Kornwestheim Pbf",
+                "location": [
+                  9.179929,
+                  48.86217
+                ],
+                "arrival_time": "2023-06-07T11:10:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:10:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:10:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:10:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "404113",
+                "name": "Ludwigsburg",
+                "location": [
+                  9.185462,
+                  48.892166
+                ],
+                "arrival_time": "2023-06-07T11:13:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:13:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:14:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:14:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "183712",
+                "name": "Asperg",
+                "location": [
+                  9.148003,
+                  48.90729
+                ],
+                "arrival_time": "2023-06-07T11:17:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:17:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:17:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:17:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "462863",
+                "name": "Tamm(Württ)",
+                "location": [
+                  9.125347,
+                  48.92193
+                ],
+                "arrival_time": "2023-06-07T11:19:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:19:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:20:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:20:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "339870",
+                "name": "Bietigheim-Bissingen",
+                "location": [
+                  9.137187,
+                  48.947968
+                ],
+                "arrival_time": "2023-06-07T11:24:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:24:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 64.1,
+            "duration": 54.7,
+            "departure": "2023-06-07T11:24:00Z",
+            "arrival": "2023-06-07T11:24:54.651Z",
+            "geometry": "_dwiH{rwv@GFCGCIACAIEKBCXSBJBH?BBH@DED",
+            "instructions": [
+              {
+                "distance": 5.5,
+                "duration": 3.9,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 18.5,
+                "duration": 17.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 17.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 4.0,
+                "duration": 2.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Bietigheim-Bissingen",
+            "trip_headsign": "17a",
+            "route_long_name": "17a",
+            "route_short_name": "17a",
+            "route_type": 2,
+            "distance": 55547.5,
+            "duration": 3840.0,
+            "departure": "2023-06-07T11:32:00Z",
+            "arrival": "2023-06-07T12:36:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "451500",
+            "route_id": "22164",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "qcwiHqrwv@am@btAye@tyJfM~pG``ArcKqn@naFh@d|JdSltAxtB~}GxvA|`Eh_Az~Cl`Bh~FysJfmXslHtlT",
+            "stops": [
+              {
+                "stop_id": "361751",
+                "name": "Bietigheim-Bissingen",
+                "location": [
+                  9.137214,
+                  48.947926
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:32:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:32:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "535375",
+                "name": "Ellental",
+                "location": [
+                  9.123586,
+                  48.955303
+                ],
+                "arrival_time": "2023-06-07T11:34:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:34:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:34:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:34:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "517949",
+                "name": "Sachsenheim",
+                "location": [
+                  9.063004,
+                  48.96151
+                ],
+                "arrival_time": "2023-06-07T11:38:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:38:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:38:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:38:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "197433",
+                "name": "Sersheim",
+                "location": [
+                  9.019157,
+                  48.95923
+                ],
+                "arrival_time": "2023-06-07T11:41:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:41:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:42:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:42:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "369308",
+                "name": "Vaihingen(Enz)",
+                "location": [
+                  8.956976,
+                  48.948822
+                ],
+                "arrival_time": "2023-06-07T11:45:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:45:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:52:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:52:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "647612",
+                "name": "Illingen(Württ)",
+                "location": [
+                  8.920738,
+                  48.956432
+                ],
+                "arrival_time": "2023-06-07T11:54:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:54:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:55:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:55:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "67886",
+                "name": "Mühlacker Rößlesweg",
+                "location": [
+                  8.859751,
+                  48.956215
+                ],
+                "arrival_time": "2023-06-07T11:58:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T11:58:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T11:58:00.000+00:00",
+                "planned_departure_time": "2023-06-07T11:58:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "666228",
+                "name": "Mühlacker",
+                "location": [
+                  8.846079,
+                  48.95299
+                ],
+                "arrival_time": "2023-06-07T12:00:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:00:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:01:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:01:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "55518",
+                "name": "Enzberg",
+                "location": [
+                  8.800157,
+                  48.934135
+                ],
+                "arrival_time": "2023-06-07T12:04:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:04:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:04:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:04:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "139687",
+                "name": "Niefern",
+                "location": [
+                  8.769129,
+                  48.92009
+                ],
+                "arrival_time": "2023-06-07T12:06:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:06:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:07:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:07:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "657243",
+                "name": "Eutingen(Baden)",
+                "location": [
+                  8.743554,
+                  48.909798
+                ],
+                "arrival_time": "2023-06-07T12:09:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:09:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:09:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:09:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "592567",
+                "name": "Pforzheim Hbf",
+                "location": [
+                  8.702699,
+                  48.89421
+                ],
+                "arrival_time": "2023-06-07T12:13:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:13:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:18:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:18:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "70918",
+                "name": "Wilferdingen-Singen",
+                "location": [
+                  8.572415,
+                  48.95386
+                ],
+                "arrival_time": "2023-06-07T12:28:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:28:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T12:29:00.000+00:00",
+                "planned_departure_time": "2023-06-07T12:29:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "241330",
+                "name": "Karlsruhe-Durlach",
+                "location": [
+                  8.462705,
+                  49.002117
+                ],
+                "arrival_time": "2023-06-07T12:36:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T12:36:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 57.0,
+            "duration": 49.3,
+            "departure": "2023-06-07T12:36:00Z",
+            "arrival": "2023-06-07T12:36:49.248Z",
+            "geometry": "gvajHwzsr@GFEMBCCGAE\\YACEQAAML",
+            "instructions": [
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 7.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 7.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 19.1,
+                "duration": 13.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 10.0,
+                "duration": 10.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "type": "pt",
+            "departure_location": "Karlsruhe-Durlach",
+            "trip_headsign": "S3",
+            "route_long_name": "S3",
+            "route_short_name": "S3",
+            "route_type": 2,
+            "distance": 51102.7,
+            "duration": 2700.0,
+            "departure": "2023-06-07T13:00:00Z",
+            "arrival": "2023-06-07T13:45:00Z",
+            "feed_id": "gtfs_0",
+            "trip_id": "1545934",
+            "route_id": "5170",
+            "is_in_same_vehicle_as_previous": false,
+            "geometry": "yvajHa}sr@a|VgvWkgGeqEkgBitAgcB{]k{Bo^cpCq_@snHskAgvHwYcmFyh@oxC|B{q@lnE",
+            "stops": [
+              {
+                "stop_id": "234595",
+                "name": "Karlsruhe-Durlach",
+                "location": [
+                  8.463046,
+                  49.002213
+                ],
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:00:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:00:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "639230",
+                "name": "Bruchsal",
+                "location": [
+                  8.589649,
+                  49.124622
+                ],
+                "arrival_time": "2023-06-07T13:08:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:08:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:10:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:10:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "37255",
+                "name": "Ubstadt-Weiher",
+                "location": [
+                  8.623279,
+                  49.166916
+                ],
+                "arrival_time": "2023-06-07T13:13:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:13:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:14:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:14:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "77541",
+                "name": "Stettfeld-Weiher",
+                "location": [
+                  8.636928,
+                  49.183624
+                ],
+                "arrival_time": "2023-06-07T13:16:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:16:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:16:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:16:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "197457",
+                "name": "Bad Schönborn Süd",
+                "location": [
+                  8.641874,
+                  49.199657
+                ],
+                "arrival_time": "2023-06-07T13:18:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:18:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:19:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:19:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "595058",
+                "name": "Bad Schönborn-Kronau",
+                "location": [
+                  8.646913,
+                  49.219563
+                ],
+                "arrival_time": "2023-06-07T13:21:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:21:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:21:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:21:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "225958",
+                "name": "Rot-Malsch",
+                "location": [
+                  8.652124,
+                  49.242775
+                ],
+                "arrival_time": "2023-06-07T13:24:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:24:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:24:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:24:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "99737",
+                "name": "Wiesloch-Walldorf",
+                "location": [
+                  8.664377,
+                  49.291355
+                ],
+                "arrival_time": "2023-06-07T13:28:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:28:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:29:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:29:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "301948",
+                "name": "St Ilgen-Sandhausen",
+                "location": [
+                  8.668662,
+                  49.341156
+                ],
+                "arrival_time": "2023-06-07T13:33:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:33:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:33:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:33:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "575952",
+                "name": "Heidelberg-Kirchheim/Rohrbach",
+                "location": [
+                  8.675354,
+                  49.379257
+                ],
+                "arrival_time": "2023-06-07T13:37:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:37:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:37:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:37:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "372612",
+                "name": "Heidelberg Hbf",
+                "location": [
+                  8.674716,
+                  49.40382
+                ],
+                "arrival_time": "2023-06-07T13:41:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:41:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_time": "2023-06-07T13:43:00.000+00:00",
+                "planned_departure_time": "2023-06-07T13:43:00.000+00:00",
+                "departure_cancelled": false
+              },
+              {
+                "stop_id": "99770",
+                "name": "Heidelberg-Pfaffengrund/Wieblingen",
+                "location": [
+                  8.641533,
+                  49.411957
+                ],
+                "arrival_time": "2023-06-07T13:45:00.000+00:00",
+                "planned_arrival_time": "2023-06-07T13:45:00.000+00:00",
+                "arrival_cancelled": false,
+                "departure_cancelled": false
+              }
+            ]
+          },
+          {
+            "type": "walk",
+            "departure_location": "Walk",
+            "route_type": -1,
+            "distance": 1248.7,
+            "duration": 899.2,
+            "departure": "2023-06-07T13:45:00Z",
+            "arrival": "2023-06-07T13:59:59.065Z",
+            "geometry": "}xqlHquvs@CCCAKKLc@@WAGQUH[a@a@WEGv@G\\QNYNgAhEUl@A^aAvDEHkD`OEXeAdEBd@Jb@BRC`@kCtJKNMH}Bv@w@b@qC`CiA|@cAf@mCz@",
+            "instructions": [
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 59.6,
+                "duration": 42.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 525.6,
+                "duration": 378.5,
+                "type": 4,
+                "instruction": "Turn slight left onto In der Gabel",
+                "name": "In der Gabel",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 562.7,
+                "duration": 405.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          99
+        ],
+        "summary": {
+          "distance": 127335.3,
+          "duration": 12573.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.189652,
+            48.802691
+          ],
+          [
+            9.189652,
+            48.802692
+          ],
+          [
+            9.189647,
+            48.802741
+          ],
+          [
+            9.189584,
+            48.80327
+          ],
+          [
+            9.189243,
+            48.803377
+          ],
+          [
+            9.189051,
+            48.80343
+          ],
+          [
+            9.188086,
+            48.803783
+          ],
+          [
+            9.169203,
+            48.813644
+          ],
+          [
+            9.167065,
+            48.829597
+          ],
+          [
+            9.179929,
+            48.86217
+          ],
+          [
+            9.185462,
+            48.892166
+          ],
+          [
+            9.148003,
+            48.90729
+          ],
+          [
+            9.125347,
+            48.92193
+          ],
+          [
+            9.137187,
+            48.947968
+          ],
+          [
+            9.137258,
+            48.948002
+          ],
+          [
+            9.13722,
+            48.948044
+          ],
+          [
+            9.137257,
+            48.948058
+          ],
+          [
+            9.137314,
+            48.948078
+          ],
+          [
+            9.137331,
+            48.948085
+          ],
+          [
+            9.137382,
+            48.948103
+          ],
+          [
+            9.137441,
+            48.948126
+          ],
+          [
+            9.137457,
+            48.948108
+          ],
+          [
+            9.137563,
+            48.947982
+          ],
+          [
+            9.137503,
+            48.947961
+          ],
+          [
+            9.137452,
+            48.947942
+          ],
+          [
+            9.137434,
+            48.947936
+          ],
+          [
+            9.137381,
+            48.947916
+          ],
+          [
+            9.137349,
+            48.947905
+          ],
+          [
+            9.137214,
+            48.947926
+          ],
+          [
+            9.123586,
+            48.955303
+          ],
+          [
+            9.063004,
+            48.96151
+          ],
+          [
+            9.019157,
+            48.95923
+          ],
+          [
+            8.956976,
+            48.948822
+          ],
+          [
+            8.920738,
+            48.956432
+          ],
+          [
+            8.859751,
+            48.956215
+          ],
+          [
+            8.846079,
+            48.95299
+          ],
+          [
+            8.800157,
+            48.934135
+          ],
+          [
+            8.769129,
+            48.92009
+          ],
+          [
+            8.743554,
+            48.909798
+          ],
+          [
+            8.702699,
+            48.89421
+          ],
+          [
+            8.572415,
+            48.95386
+          ],
+          [
+            8.462705,
+            49.002117
+          ],
+          [
+            8.462677,
+            49.00212
+          ],
+          [
+            8.462642,
+            49.002159
+          ],
+          [
+            8.462712,
+            49.002187
+          ],
+          [
+            8.462726,
+            49.002171
+          ],
+          [
+            8.462774,
+            49.00219
+          ],
+          [
+            8.462796,
+            49.002198
+          ],
+          [
+            8.46293,
+            49.002051
+          ],
+          [
+            8.462955,
+            49.002061
+          ],
+          [
+            8.463037,
+            49.002094
+          ],
+          [
+            8.463047,
+            49.002098
+          ],
+          [
+            8.463046,
+            49.002213
+          ],
+          [
+            8.589649,
+            49.124622
+          ],
+          [
+            8.623279,
+            49.166916
+          ],
+          [
+            8.636928,
+            49.183624
+          ],
+          [
+            8.641874,
+            49.199657
+          ],
+          [
+            8.646913,
+            49.219563
+          ],
+          [
+            8.652124,
+            49.242775
+          ],
+          [
+            8.664377,
+            49.291355
+          ],
+          [
+            8.668662,
+            49.341156
+          ],
+          [
+            8.675354,
+            49.379257
+          ],
+          [
+            8.674716,
+            49.40382
+          ],
+          [
+            8.641533,
+            49.411957
+          ],
+          [
+            8.641048,
+            49.412152
+          ],
+          [
+            8.641066,
+            49.412172
+          ],
+          [
+            8.641084,
+            49.412192
+          ],
+          [
+            8.64114,
+            49.412253
+          ],
+          [
+            8.641324,
+            49.412178
+          ],
+          [
+            8.641436,
+            49.412174
+          ],
+          [
+            8.64148,
+            49.412179
+          ],
+          [
+            8.64159,
+            49.412271
+          ],
+          [
+            8.641731,
+            49.412219
+          ],
+          [
+            8.641896,
+            49.412386
+          ],
+          [
+            8.641927,
+            49.41251
+          ],
+          [
+            8.641654,
+            49.412545
+          ],
+          [
+            8.641501,
+            49.412594
+          ],
+          [
+            8.64142,
+            49.412678
+          ],
+          [
+            8.64134,
+            49.412813
+          ],
+          [
+            8.640332,
+            49.413165
+          ],
+          [
+            8.640096,
+            49.413277
+          ],
+          [
+            8.639937,
+            49.413293
+          ],
+          [
+            8.639022,
+            49.41362
+          ],
+          [
+            8.638973,
+            49.413654
+          ],
+          [
+            8.636401,
+            49.414513
+          ],
+          [
+            8.636265,
+            49.414536
+          ],
+          [
+            8.635277,
+            49.414889
+          ],
+          [
+            8.635094,
+            49.414874
+          ],
+          [
+            8.634908,
+            49.41481
+          ],
+          [
+            8.634814,
+            49.41479
+          ],
+          [
+            8.634637,
+            49.414812
+          ],
+          [
+            8.632771,
+            49.415512
+          ],
+          [
+            8.632687,
+            49.41557
+          ],
+          [
+            8.632641,
+            49.415641
+          ],
+          [
+            8.632358,
+            49.41627
+          ],
+          [
+            8.632178,
+            49.416553
+          ],
+          [
+            8.631527,
+            49.417277
+          ],
+          [
+            8.63122,
+            49.417648
+          ],
+          [
+            8.631023,
+            49.417989
+          ],
+          [
+            8.630718,
+            49.418696
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

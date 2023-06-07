@@ -36,7 +36,8 @@ PROFILES = [
             'cycling-electric',
             'foot-walking',
             'foot-hiking',
-            'wheelchair'
+            'wheelchair',
+            'public-transport'
             ]
 
 DIMENSIONS = ['time', 'distance']

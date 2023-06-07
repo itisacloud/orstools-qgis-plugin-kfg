@@ -287,6 +287,7 @@ Remember, the first and last location are not part of the optimization.
                     )
                     return
                 response = clnt.request('/optimization', {}, post_json=params)
+
                 feat = directions_core.get_output_features_optimization(response, params['vehicles'][0]['profile'])
             else:
                 params['coordinates'] = directions.get_request_line_feature()
@@ -306,18 +307,25 @@ Please add polygons to the layer or uncheck avoid polygons.
                     logger.log(msg, 0)
                     self.dlg.debug_text.setText(msg)
                     return
+
                 response = clnt.request('/v2/directions/' + profile + '/geojson', {}, post_json=params)
-                feat = directions_core.get_output_feature_directions(
+                # ToDO handle diffrent response from gtfs endpoint
+                feats = directions_core.get_output_feature_directions(
                     response,
                     profile,
                     params['preference'],
                     directions.options
                 )
 
-            layer_out.dataProvider().addFeature(feat)
+            #load qml if gtfs profile
+            for feat in feats:
+                layer_out.dataProvider().addFeature(feat)
 
             layer_out.updateExtents()
             self.project.addMapLayer(layer_out)
+            layer_out.loadNamedStyle(pathQML)
+            layer_out.triggerRepaint()
+
 
             # Update quota; handled in client module after successful request
             # if provider.get('ENV_VARS'):

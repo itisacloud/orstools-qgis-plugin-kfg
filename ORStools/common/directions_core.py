@@ -33,7 +33,9 @@ from qgis.core import (QgsPoint,
                        QgsGeometry,
                        QgsFeature,
                        QgsFields,
-                       QgsField)
+                       QgsField,
+                       QgsVectorLayer,
+                       QgsProject)
 from typing import List
 
 from PyQt5.QtCore import QVariant
@@ -115,6 +117,7 @@ def get_fields(from_type=QVariant.String, to_type=QVariant.String, from_name="FR
     return fields
 
 
+
 def get_output_feature_directions(response, profile, preference, options=None, from_value=None, to_value=None):
     """
     Build output feature based on response attributes for directions endpoint.
@@ -140,24 +143,61 @@ def get_output_feature_directions(response, profile, preference, options=None, f
     :returns: Output feature with attributes and geometry set.
     :rtype: QgsFeature
     """
-    response_mini = response['features'][0]
-    feat = QgsFeature()
-    coordinates = response_mini['geometry']['coordinates']
-    distance = response_mini['properties']['summary']['distance']
-    duration = response_mini['properties']['summary']['duration']
-    qgis_coords = [QgsPoint(x, y, z) for x, y, z in coordinates]
-    feat.setGeometry(QgsGeometry.fromPolyline(qgis_coords))
-    feat.setAttributes([f"{distance / 1000:.3f}",
-                        f"{duration / 3600:.3f}",
-                        profile,
-                        preference,
-                        str(options),
-                        from_value,
-                        to_value
-                        ])
 
-    return feat
+    if profile == "public-transport":
 
+        feats = []
+        for segment in response["features"][0]["properties"]["legs"]:
+            print(segment)
+            feat = QgsFeature()
+            coordinates = convert.decode_polyline(segment["geometry"])
+            qgis_coords = [QgsPoint(x, y) for x, y in coordinates]
+            feat.setGeometry(QgsGeometry.fromPolyline(qgis_coords))
+            feat.setAttributes([f"{segment['distance'] / 1000:.3f}",
+                                f"{segment['duration'] / 3600:.3f}",
+                                segment['departure'],
+                                segment['arrival'],
+                                segment['type']
+                                ])
+            if segment['type'] == 'pt':
+                feat.setAttributes([segment['route_long_name']])
+            else:
+                feat.setAttributes(["None"])
+
+
+            feats.append(feat)
+
+        """print(segment)
+            data_point = {
+                "route_id": id,
+                "type": segment["type"],
+                "geometry": shape(decode_polyline(segment["geometry"]))
+            }
+            try:
+                data_point["name"] = segment["route_long_name"]
+                data_point["head"] = segment["trip_headsign"]
+            except:
+                data_point["name"] = segment["type"]
+                pass
+            data.append(data_point)"""
+    else:
+        response_mini = response['features'][0]
+        feat = QgsFeature()
+        coordinates = response_mini['geometry']['coordinates']
+        distance = response_mini['properties']['summary']['distance']
+        duration = response_mini['properties']['summary']['duration']
+        qgis_coords = [QgsPoint(x, y, z) for x, y, z in coordinates]
+        feat.setGeometry(QgsGeometry.fromPolyline(qgis_coords))
+        feat.setAttributes([f"{distance / 1000:.3f}",
+                            f"{duration / 3600:.3f}",
+                            profile,
+                            preference,
+                            str(options),
+                            from_value,
+                            to_value
+                            ])
+        feats = [feat]
+    return feats
 
 def get_output_features_optimization(response, profile, from_value=None):
     """
@@ -167,7 +207,7 @@ def get_output_features_optimization(response, profile, from_value=None):
     :type response: dict
 
     :param profile: transportation profile to be used
-    :type profile: str
+    :tyspe profile: str
 
     :param from_value: value of 'FROM_ID' field
     :type from_value: any
