@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>412</width>
+    <width>443</width>
     <height>868</height>
    </rect>
   </property>
@@ -75,7 +75,7 @@
          </font>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://openrouteservice.org/dev/#/home&quot;&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline; color:#a8b1f5;&quot;&gt;Dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://openrouteservice.org/dev/#/home&quot;&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline; color:#a8b1f5;&quot;&gt;Dash&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="openExternalLinks">
          <bool>true</bool>
@@ -374,6 +374,13 @@
           <property name="sizeConstraint">
            <enum>QLayout::SetDefaultConstraint</enum>
           </property>
+          <item>
+           <layout class="QVBoxLayout" name="PublicTransport">
+            <item>
+             <widget class="QTextEdit" name="textEdit"/>
+            </item>
+           </layout>
+          </item>
           <item>
            <widget class="QgsCollapsibleGroupBox" name="optimization_group">
             <property name="sizePolicy">

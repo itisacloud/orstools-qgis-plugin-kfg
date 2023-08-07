@@ -312,7 +312,7 @@ Please add polygons to the layer or uncheck avoid polygons.
 
                 if profile == "public-transport":
                     # Add the three additional fields
-                    layer_out.dataProvider().addAttributes([QgsField("departure", QVariant.String),QgsField("arrival", QVariant.String),QgsField("type", QVariant.String)])
+                    layer_out.dataProvider().addAttributes([QgsField("departure", QVariant.String),QgsField("arrival", QVariant.String),QgsField("type", QVariant.String),QgsField("name_long", QVariant.String)])
                     # Update the fields
                     layer_out.updateFields()
                     params["departure"] = "2023-06-04T13:02:26Z"
@@ -325,17 +325,7 @@ Please add polygons to the layer or uncheck avoid polygons.
                     params['preference'],
                     directions.options
                 )
-            title = "Test"
-            message = (f"{feats[0].fields().names()}"
-                       f"{feats[0].fields().names()}"
-                       f"")
 
-            msg_box =  QMessageBox()
-            msg_box.setText(message)
-            msg_box.setWindowTitle(title)
-
-            msg_box.exec_()
-            #load qml if gtfs profile
 
             for feat in feats:
                 layer_out.dataProvider().addFeature(feat)
@@ -343,8 +333,9 @@ Please add polygons to the layer or uncheck avoid polygons.
             layer_out.updateExtents()
             self.project.addMapLayer(layer_out)
             try:
-                layer_out.loadNamedStyle(pathQML)
-                layer_out.triggerRepaint()
+                if self.QML_path_option:
+                    layer_out.loadNamedStyle(self.QML_path.text())
+                    layer_out.triggerRepaint()
             except:
                 pass
 

@@ -321,6 +321,15 @@ class Ui_ORStoolsDialogBase(object):
         self.avoidpolygon_dropdown = gui.QgsMapLayerComboBox(self.avoidpolygon_group)
         self.avoidpolygon_dropdown.setShowCrs(False)
         self.avoidpolygon_dropdown.setObjectName("avoidpolygon_dropdown")
+        self.public_transport_options = QtWidgets.QGroupBox(self.advances_group)
+        self.public_transport_options.setObjectName("public_transport_options")
+        self.verticalLayout_3.addWidget(self.public_transport_options)
+        self.QML_path_option = QtWidgets.QCheckBox(self.public_transport_options)
+        self.QML_path = QtWidgets.QLineEdit(self.public_transport_options)
+        self.QML_path.setText("QML path")
+        self.QML_path.setObjectName("QML_path")
+        self.verticalLayout_7.addWidget(self.QML_path_option)
+        self.verticalLayout_7.addWidget(self.QML_path)
         self.verticalLayout_6.addWidget(self.avoidpolygon_dropdown)
         self.verticalLayout_3.addWidget(self.avoidpolygon_group)
         self.verticalLayout_7.addWidget(self.advances_group)
@@ -517,3 +526,5 @@ class Ui_ORStoolsDialogBase(object):
         self.about_button.setText(_translate("ORStoolsDialogBase", "About"))
 from qgis import gui
 from . import resources_rc
+
+

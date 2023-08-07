@@ -151,15 +151,6 @@ def get_output_feature_directions(response, profile, preference, options=None, f
         for segment in response["features"][0]["properties"]["legs"]:
             feat = QgsFeature()
             coordinates = convert.decode_polyline(segment["geometry"], is3d=True)
-            title = "Test"
-            message = (f"{segment['geometry']}"
-                       f"{segment}")
-
-            msg_box = QMessageBox()
-            msg_box.setText(message)
-            msg_box.setWindowTitle(title)
-
-            msg_box.exec_()
 
 
             qgis_coords = [QgsPoint(x, y, z) for x, y, z in coordinates]
