@@ -28,6 +28,8 @@
 """
 
 from itertools import product
+
+from PyQt5.QtWidgets import QMessageBox
 from qgis.core import (QgsPoint,
                        QgsPointXY,
                        QgsGeometry,
@@ -117,7 +119,6 @@ def get_fields(from_type=QVariant.String, to_type=QVariant.String, from_name="FR
     return fields
 
 
-
 def get_output_feature_directions(response, profile, preference, options=None, from_value=None, to_value=None):
     """
     Build output feature based on response attributes for directions endpoint.
@@ -148,22 +149,33 @@ def get_output_feature_directions(response, profile, preference, options=None, f
 
         feats = []
         for segment in response["features"][0]["properties"]["legs"]:
-            print(segment)
             feat = QgsFeature()
-            coordinates = convert.decode_polyline(segment["geometry"])
-            qgis_coords = [QgsPoint(x, y) for x, y in coordinates]
+            coordinates = convert.decode_polyline(segment["geometry"], is3d=True)
+            title = "Test"
+            message = (f"{segment['geometry']}"
+                       f"{segment}")
+
+            msg_box = QMessageBox()
+            msg_box.setText(message)
+            msg_box.setWindowTitle(title)
+
+            msg_box.exec_()
+
+
+            qgis_coords = [QgsPoint(x, y, z) for x, y, z in coordinates]
             feat.setGeometry(QgsGeometry.fromPolyline(qgis_coords))
             feat.setAttributes([f"{segment['distance'] / 1000:.3f}",
                                 f"{segment['duration'] / 3600:.3f}",
+                                profile,
+                                preference,
+                                str(options),
+                                from_value,
+                                to_value,
                                 segment['departure'],
                                 segment['arrival'],
-                                segment['type']
+                                segment['type'],
+                                segment['route_long_name'] if segment['type'] == 'pt' else "None"
                                 ])
-            if segment['type'] == 'pt':
-                feat.setAttributes([segment['route_long_name']])
-            else:
-                feat.setAttributes(["None"])
-
 
             feats.append(feat)
 
@@ -198,6 +210,7 @@ def get_output_feature_directions(response, profile, preference, options=None, f
                             ])
         feats = [feat]
     return feats
+
 
 def get_output_features_optimization(response, profile, from_value=None):
     """
@@ -234,7 +247,8 @@ def get_output_features_optimization(response, profile, from_value=None):
     return feat
 
 
-def build_default_parameters(preference: str, point_list: List[QgsPointXY] = None, coordinates: list = None, options: dict = None) -> dict:
+def build_default_parameters(preference: str, point_list: List[QgsPointXY] = None, coordinates: list = None,
+                             options: dict = None) -> dict:
     """
     Build default parameters for directions endpoint. Either uses a list of QgsPointXY to create the coordinates
     passed in point_list or an existing coordinate list within the coordinates parameter.

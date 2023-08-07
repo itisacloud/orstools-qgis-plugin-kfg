@@ -1,8 +1,5 @@
 providers:
-- ENV_VARS:
-    ORS_QUOTA: X-Ratelimit-Limit
-    ORS_REMAINING: X-Ratelimit-Remaining
-  base_url: https://api.openrouteservice.org
+- base_url: http://129.206.6.215:9001/ors/
   key: ''
-  name: openrouteservice
+  name: openrouteserivceKFG
   timeout: 60

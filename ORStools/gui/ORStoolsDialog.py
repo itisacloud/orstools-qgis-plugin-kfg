@@ -31,13 +31,15 @@ import json
 import os
 import processing
 import webbrowser
+
+from qgis._core import QgsMessageLog, QgsField
 from qgis.core import (QgsProject,
                        QgsVectorLayer,
                        QgsTextAnnotation,
                        QgsMapLayerProxyModel)
 from qgis.gui import QgsMapCanvasAnnotationItem
 
-from PyQt5.QtCore import QSizeF, QPointF
+from PyQt5.QtCore import QSizeF, QPointF, QVariant
 from PyQt5.QtGui import QIcon, QTextDocument
 from PyQt5.QtWidgets import (QAction,
                              QDialog,
@@ -308,6 +310,13 @@ Please add polygons to the layer or uncheck avoid polygons.
                     self.dlg.debug_text.setText(msg)
                     return
 
+                if profile == "public-transport":
+                    # Add the three additional fields
+                    layer_out.dataProvider().addAttributes([QgsField("departure", QVariant.String),QgsField("arrival", QVariant.String),QgsField("type", QVariant.String)])
+                    # Update the fields
+                    layer_out.updateFields()
+                    params["departure"] = "2023-06-04T13:02:26Z"
+
                 response = clnt.request('/v2/directions/' + profile + '/geojson', {}, post_json=params)
                 # ToDO handle diffrent response from gtfs endpoint
                 feats = directions_core.get_output_feature_directions(
@@ -316,15 +325,28 @@ Please add polygons to the layer or uncheck avoid polygons.
                     params['preference'],
                     directions.options
                 )
+            title = "Test"
+            message = (f"{feats[0].fields().names()}"
+                       f"{feats[0].fields().names()}"
+                       f"")
 
+            msg_box =  QMessageBox()
+            msg_box.setText(message)
+            msg_box.setWindowTitle(title)
+
+            msg_box.exec_()
             #load qml if gtfs profile
+
             for feat in feats:
                 layer_out.dataProvider().addFeature(feat)
 
             layer_out.updateExtents()
             self.project.addMapLayer(layer_out)
-            layer_out.loadNamedStyle(pathQML)
-            layer_out.triggerRepaint()
+            try:
+                layer_out.loadNamedStyle(pathQML)
+                layer_out.triggerRepaint()
+            except:
+                pass
 
 
             # Update quota; handled in client module after successful request
